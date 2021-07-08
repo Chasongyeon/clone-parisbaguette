@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import "_reset.css";
+
+
+.container{
+    height: 100%;
+    max-width: 1420px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 25px;   
+}
+
+.brand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,50%);
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.gnb_left{
+    text-align: left;
+}
+.gnb_right{
+    text-align: right;
+}
+ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+
